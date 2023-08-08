@@ -1,0 +1,96 @@
+/* Colors */
+/* 
+rgb(248, 240, 229)
+rgb(234, 219, 200)
+rgb(218, 192, 163)
+rgb(16, 44, 87)  Dark navy (header hero footer)
+*/
+
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(16, 44, 87);
+  color: rgb(248, 240, 229);
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  padding: 16px;
+}
+
+.logo {
+  height: 30px;
+  margin-left: 35px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(234, 219, 200, 0.8);
+  padding: 8px 12px;
+}
+
+.nav-link:hover {
+  color: rgb(248, 240, 229);
+}
+
+.hero {
+  margin-top: 60px;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 1500px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  padding: 1.5em 5em;
+  font-size: 18px;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: extra-bold;
+  flex: 1;
+}
+
+.btn-cta {
+  align-self: flex-start;
+  padding: 5px 16px;
+  border: 3px solid rgb(248, 240, 229);
+  color: rgb(16, 44, 87);
+  font-weight: bold;
+  border-radius: 6px;
+  outline: none;
+  background-color: rgb(248, 240, 229);
+}
+
+.btn-cta:hover {
+  cursor: pointer;
+  color: rgb(248, 240, 229);
+  background: transparent;
+  border: 3px solid rgb(248, 240, 229);
+}
