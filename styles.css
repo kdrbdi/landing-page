@@ -29,10 +29,13 @@ header {
   color: white;
 }
 
+ul {
+  list-style: none;
+}
+
 nav ul {
   display: flex;
   justify-content: space-between;
-  list-style: none;
 }
 
 .nav-link {
@@ -167,6 +170,10 @@ nav ul {
   margin-bottom: 1.2em;
 }
 
+.testimonial:last-of-type {
+  border-bottom: none;
+}
+
 .client-name {
   color: rgb(1, 25, 61);
   font-size: 24px;
@@ -200,4 +207,73 @@ nav ul {
 
 .quote-text {
   padding: 0.75em 0;
+}
+
+.cta-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aec9ff;
+  padding: 7em 5em;
+}
+
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 24px;
+  color: #1f2937;
+  width: 75%;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 5em 5em 2em;
+  gap: 2em;
+}
+
+.footer-sec-title {
+  font-size: 1.2em;
+  padding: 0.5em 0;
+}
+
+.logo-section {
+  display: flex;
+  border-right: 2px solid #eeeeee65;
+}
+footer .logo-section,
+footer .navbar,
+footer #contact {
+  padding: 0 2em;
+}
+
+footer .logo {
+  align-self: center;
+}
+
+footer ul {
+  padding-inline-start: 5px;
+  font-size: 18px;
+  flex-direction: column;
+}
+#contact {
+  border-left: 2px solid #eeeeee65;
+}
+
+#contact ul li {
+  padding-left: 15px;
+}
+
+.info {
+  color: rgba(234, 219, 200, 0.8);
+}
+
+.bottom-footer {
+  justify-content: flex-end;
+  font-size: 20px;
+  font-weight: lighter;
+  width: 100%;
+  text-align: center;
 }
